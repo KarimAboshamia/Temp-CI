@@ -3,7 +3,7 @@ name: Building & Pushing Docker Image
 on: push
 
 jobs:
-  push_to_registry:
+  test:
     name: Push Docker Image to Docker Hub
     runs-on: ubuntu-latest
 
